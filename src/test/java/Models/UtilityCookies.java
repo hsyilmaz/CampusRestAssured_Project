@@ -17,10 +17,10 @@ public class UtilityCookies {
     @BeforeClass
     public void loginCampus()
     {
-        baseURI = "https://demo.mersys.io/";
+        baseURI = "https://test.mersys.io/";
         Map<String,String> credentials = new HashMap<>();
-        credentials.put("username","richfield.edu");
-        credentials.put("password","Richfield2020!");
+        credentials.put("username","turkeyts");
+        credentials.put("password","TechnoStudy123");
         credentials.put("rememberMe","true");
 
         cookies=

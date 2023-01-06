@@ -5,12 +5,10 @@ import Models.UtilityCookies;
 import io.restassured.http.ContentType;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
 
 public class SubjCategoryTest extends UtilityCookies {
     String sbjCatId;
-
 
     @Test
     public void createCategory(){
