@@ -19,9 +19,7 @@ public class UtilityCookies {
     {
         baseURI = "https://test.mersys.io/";
         Map<String,String> credentials = new HashMap<>();
-        credentials.put("username","turkeyts");
-        credentials.put("password","TechnoStudy123");
-        credentials.put("rememberMe","true");
+
 
         cookies=
                 given()
